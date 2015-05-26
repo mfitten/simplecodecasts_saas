@@ -4850,3 +4850,404 @@ Started GET "/assets/pages.css?body=1" for 73.43.25.169 at 2015-04-20 03:40:05 +
 
 
 Started GET "/assets/application.css?body=1" for 73.43.25.169 at 2015-04-20 03:40:05 +0000
+
+
+Started GET "/" for 64.238.118.243 at 2015-04-21 15:07:08 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  [1m[35mPlan Load (0.3ms)[0m  SELECT  "plans".* FROM "plans"  WHERE "plans"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPlan Load (0.1ms)[0m  [1mSELECT  "plans".* FROM "plans"  WHERE "plans"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered pages/home.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 572ms (Views: 543.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/pages.css?body=1" for 64.238.118.243 at 2015-04-21 15:07:09 +0000
+
+
+Started GET "/assets/application.css?body=1" for 64.238.118.243 at 2015-04-21 15:07:09 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 64.238.118.243 at 2015-04-21 15:07:09 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 64.238.118.243 at 2015-04-21 15:07:09 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 64.238.118.243 at 2015-04-21 15:07:09 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 64.238.118.243 at 2015-04-21 15:07:09 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 64.238.118.243 at 2015-04-21 15:07:09 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 64.238.118.243 at 2015-04-21 15:07:09 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 64.238.118.243 at 2015-04-21 15:07:09 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 64.238.118.243 at 2015-04-21 15:07:09 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 64.238.118.243 at 2015-04-21 15:07:09 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 64.238.118.243 at 2015-04-21 15:07:09 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 64.238.118.243 at 2015-04-21 15:07:09 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 64.238.118.243 at 2015-04-21 15:07:09 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 64.238.118.243 at 2015-04-21 15:07:09 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 64.238.118.243 at 2015-04-21 15:07:09 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 64.238.118.243 at 2015-04-21 15:07:09 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 64.238.118.243 at 2015-04-21 15:07:09 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 64.238.118.243 at 2015-04-21 15:07:09 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 64.238.118.243 at 2015-04-21 15:07:09 +0000
+
+
+Started GET "/assets/users.js?body=1" for 64.238.118.243 at 2015-04-21 15:07:09 +0000
+
+
+Started GET "/assets/application.js?body=1" for 64.238.118.243 at 2015-04-21 15:07:09 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 64.238.118.243 at 2015-04-21 15:07:09 +0000
+
+
+Started GET "/" for 64.238.118.243 at 2015-04-21 15:07:18 +0000
+Processing by PagesController#home as HTML
+  [1m[35mPlan Load (0.2ms)[0m  SELECT  "plans".* FROM "plans"  WHERE "plans"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPlan Load (0.1ms)[0m  [1mSELECT  "plans".* FROM "plans"  WHERE "plans"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 157ms (Views: 155.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 64.238.118.243 at 2015-04-21 15:07:18 +0000
+
+
+Started GET "/assets/application.css?body=1" for 64.238.118.243 at 2015-04-21 15:07:18 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 64.238.118.243 at 2015-04-21 15:07:18 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 64.238.118.243 at 2015-04-21 15:07:18 +0000
+
+
+Started GET "/assets/application.js?body=1" for 64.238.118.243 at 2015-04-21 15:07:18 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 64.238.118.243 at 2015-04-21 15:07:18 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 64.238.118.243 at 2015-04-21 15:07:18 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 64.238.118.243 at 2015-04-21 15:07:18 +0000
+
+
+Started GET "/users/sign_up?plan=1" for 64.238.118.243 at 2015-04-21 15:07:25 +0000
+Processing by Devise::RegistrationsController#new as HTML
+  Parameters: {"plan"=>"1"}
+  Rendered devise/registrations/_basic_form.html.erb (103.3ms)
+  Rendered devise/shared/_links.html.erb (1.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (113.2ms)
+Completed 200 OK in 284ms (Views: 280.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/pages.css?body=1" for 64.238.118.243 at 2015-04-21 15:07:26 +0000
+
+
+Started GET "/assets/application.css?body=1" for 64.238.118.243 at 2015-04-21 15:07:26 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 64.238.118.243 at 2015-04-21 15:07:26 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 64.238.118.243 at 2015-04-21 15:07:26 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 64.238.118.243 at 2015-04-21 15:07:26 +0000
+
+
+Started GET "/assets/application.js?body=1" for 64.238.118.243 at 2015-04-21 15:07:26 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 64.238.118.243 at 2015-04-21 15:07:26 +0000
+
+
+Started GET "/" for 64.238.118.243 at 2015-04-21 15:07:29 +0000
+Processing by PagesController#home as HTML
+  [1m[35mPlan Load (0.2ms)[0m  SELECT  "plans".* FROM "plans"  WHERE "plans"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPlan Load (0.2ms)[0m  [1mSELECT  "plans".* FROM "plans"  WHERE "plans"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 167ms (Views: 165.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 64.238.118.243 at 2015-04-21 15:07:29 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 64.238.118.243 at 2015-04-21 15:07:30 +0000
+
+
+Started GET "/assets/application.css?body=1" for 64.238.118.243 at 2015-04-21 15:07:30 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 64.238.118.243 at 2015-04-21 15:07:30 +0000
+
+
+Started GET "/assets/application.js?body=1" for 64.238.118.243 at 2015-04-21 15:07:30 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 64.238.118.243 at 2015-04-21 15:07:30 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 64.238.118.243 at 2015-04-21 15:07:30 +0000
+
+
+Started GET "/users/sign_up?plan=2" for 64.238.118.243 at 2015-04-21 15:07:31 +0000
+Processing by Devise::RegistrationsController#new as HTML
+  Parameters: {"plan"=>"2"}
+  Rendered devise/registrations/_pro_form.html.erb (5.0ms)
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 163ms (Views: 161.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 64.238.118.243 at 2015-04-21 15:07:31 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 64.238.118.243 at 2015-04-21 15:07:31 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 64.238.118.243 at 2015-04-21 15:07:31 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 64.238.118.243 at 2015-04-21 15:07:31 +0000
+
+
+Started GET "/assets/application.css?body=1" for 64.238.118.243 at 2015-04-21 15:07:31 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 64.238.118.243 at 2015-04-21 15:07:31 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 64.238.118.243 at 2015-04-21 15:07:31 +0000
+
+
+Started GET "/" for 64.238.118.243 at 2015-04-21 15:08:07 +0000
+Processing by PagesController#home as HTML
+  [1m[35mPlan Load (0.2ms)[0m  SELECT  "plans".* FROM "plans"  WHERE "plans"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPlan Load (0.1ms)[0m  [1mSELECT  "plans".* FROM "plans"  WHERE "plans"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 154ms (Views: 153.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/pages.css?body=1" for 64.238.118.243 at 2015-04-21 15:08:07 +0000
+
+
+Started GET "/assets/application.css?body=1" for 64.238.118.243 at 2015-04-21 15:08:07 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 64.238.118.243 at 2015-04-21 15:08:07 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 64.238.118.243 at 2015-04-21 15:08:07 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 64.238.118.243 at 2015-04-21 15:08:07 +0000
+
+
+Started GET "/assets/application.js?body=1" for 64.238.118.243 at 2015-04-21 15:08:07 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 64.238.118.243 at 2015-04-21 15:08:07 +0000
+
+
+Started GET "/" for 73.43.25.169 at 2015-05-26 02:16:19 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  [1m[35mPlan Load (0.2ms)[0m  SELECT  "plans".* FROM "plans"  WHERE "plans"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPlan Load (0.1ms)[0m  [1mSELECT  "plans".* FROM "plans"  WHERE "plans"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered pages/home.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 614ms (Views: 589.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/custom.css?body=1" for 73.43.25.169 at 2015-05-26 02:16:20 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 73.43.25.169 at 2015-05-26 02:16:20 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 73.43.25.169 at 2015-05-26 02:16:20 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 73.43.25.169 at 2015-05-26 02:16:20 +0000
+
+
+Started GET "/assets/application.css?body=1" for 73.43.25.169 at 2015-05-26 02:16:20 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 73.43.25.169 at 2015-05-26 02:16:20 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 73.43.25.169 at 2015-05-26 02:16:20 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 73.43.25.169 at 2015-05-26 02:16:20 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 73.43.25.169 at 2015-05-26 02:16:20 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 73.43.25.169 at 2015-05-26 02:16:20 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 73.43.25.169 at 2015-05-26 02:16:20 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 73.43.25.169 at 2015-05-26 02:16:20 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 73.43.25.169 at 2015-05-26 02:16:20 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 73.43.25.169 at 2015-05-26 02:16:20 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 73.43.25.169 at 2015-05-26 02:16:20 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 73.43.25.169 at 2015-05-26 02:16:20 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 73.43.25.169 at 2015-05-26 02:16:20 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 73.43.25.169 at 2015-05-26 02:16:20 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 73.43.25.169 at 2015-05-26 02:16:20 +0000
+
+
+Started GET "/assets/users.js?body=1" for 73.43.25.169 at 2015-05-26 02:16:20 +0000
+
+
+Started GET "/assets/application.js?body=1" for 73.43.25.169 at 2015-05-26 02:16:20 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 73.43.25.169 at 2015-05-26 02:16:21 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddStripeCustomerTokenToUsers (20150526022748)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "users" ADD "stripe_customer_token" varchar(255)[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150526022748"]]
+  [1m[36m (62.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+
+
+Started GET "/" for 73.43.25.169 at 2015-05-26 02:42:04 +0000
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by PagesController#home as HTML
+  [1m[36mPlan Load (0.2ms)[0m  [1mSELECT  "plans".* FROM "plans"  WHERE "plans"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mPlan Load (0.1ms)[0m  SELECT  "plans".* FROM "plans"  WHERE "plans"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 186ms (Views: 165.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/custom.css?body=1" for 73.43.25.169 at 2015-05-26 02:42:05 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 73.43.25.169 at 2015-05-26 02:42:05 +0000
+
+
+Started GET "/assets/application.css?body=1" for 73.43.25.169 at 2015-05-26 02:42:05 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 73.43.25.169 at 2015-05-26 02:42:05 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 73.43.25.169 at 2015-05-26 02:42:05 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 73.43.25.169 at 2015-05-26 02:42:05 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 73.43.25.169 at 2015-05-26 02:42:05 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 73.43.25.169 at 2015-05-26 02:42:05 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 73.43.25.169 at 2015-05-26 02:42:05 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 73.43.25.169 at 2015-05-26 02:42:05 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 73.43.25.169 at 2015-05-26 02:42:05 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 73.43.25.169 at 2015-05-26 02:42:05 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 73.43.25.169 at 2015-05-26 02:42:05 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 73.43.25.169 at 2015-05-26 02:42:05 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 73.43.25.169 at 2015-05-26 02:42:05 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 73.43.25.169 at 2015-05-26 02:42:05 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 73.43.25.169 at 2015-05-26 02:42:05 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 73.43.25.169 at 2015-05-26 02:42:05 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 73.43.25.169 at 2015-05-26 02:42:05 +0000
+
+
+Started GET "/assets/users.js?body=1" for 73.43.25.169 at 2015-05-26 02:42:05 +0000
+
+
+Started GET "/assets/application.js?body=1" for 73.43.25.169 at 2015-05-26 02:42:05 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 73.43.25.169 at 2015-05-26 02:42:06 +0000
