@@ -5965,3 +5965,78 @@ Started GET "/assets/application.js?body=1" for 73.43.25.169 at 2015-05-26 03:02
 
 
 Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 73.43.25.169 at 2015-05-26 03:02:11 +0000
+
+
+Started GET "/" for 73.43.25.169 at 2015-05-27 02:32:21 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  [1m[35mPlan Load (0.3ms)[0m  SELECT  "plans".* FROM "plans"  WHERE "plans"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPlan Load (0.2ms)[0m  [1mSELECT  "plans".* FROM "plans"  WHERE "plans"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered pages/home.html.erb within layouts/application (43.8ms)
+Completed 200 OK in 950ms (Views: 932.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/custom.css?body=1" for 73.43.25.169 at 2015-05-27 02:32:22 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 73.43.25.169 at 2015-05-27 02:32:22 +0000
+
+
+Started GET "/assets/application.css?body=1" for 73.43.25.169 at 2015-05-27 02:32:22 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 73.43.25.169 at 2015-05-27 02:32:22 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 73.43.25.169 at 2015-05-27 02:32:22 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 73.43.25.169 at 2015-05-27 02:32:22 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 73.43.25.169 at 2015-05-27 02:32:22 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 73.43.25.169 at 2015-05-27 02:32:22 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 73.43.25.169 at 2015-05-27 02:32:22 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 73.43.25.169 at 2015-05-27 02:32:22 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 73.43.25.169 at 2015-05-27 02:32:22 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 73.43.25.169 at 2015-05-27 02:32:22 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 73.43.25.169 at 2015-05-27 02:32:22 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 73.43.25.169 at 2015-05-27 02:32:22 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 73.43.25.169 at 2015-05-27 02:32:22 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 73.43.25.169 at 2015-05-27 02:32:22 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 73.43.25.169 at 2015-05-27 02:32:22 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 73.43.25.169 at 2015-05-27 02:32:22 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 73.43.25.169 at 2015-05-27 02:32:22 +0000
+
+
+Started GET "/assets/application.js?body=1" for 73.43.25.169 at 2015-05-27 02:32:22 +0000
+
+
+Started GET "/assets/users.js?body=1" for 73.43.25.169 at 2015-05-27 02:32:22 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 73.43.25.169 at 2015-05-27 02:32:22 +0000
